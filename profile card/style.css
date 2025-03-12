@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #222;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: #b3afbf;
+}
+.card {
+    width: 350px;
+    background: #333;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #7ce3ff;
+    background: #222;
+    padding: 5px;
+    margin: -60px auto 10px;
+    display: block;
+}
+.profile-name {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 10px;
+}
+.about {
+    margin-top: 5px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.bio {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #b3afbf;
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+.icons i {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.icons i:hover {
+    color: #7ce3ff;
+}
